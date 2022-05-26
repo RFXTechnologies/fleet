@@ -40,7 +40,7 @@ jobs:
       with:
         node-version: '14'
     - name: Install Go
-      uses: actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492 # v2
+      uses: actions/setup-go@b22fbbc2921299758641fab08929b4ac52b32923 # v2
       with:
         go-version: ${{ matrix.go-version }}
     - name: Checkout Code
