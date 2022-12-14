@@ -45,7 +45,7 @@ jobs:
     steps:
 
     - name: Install Go
-      uses: actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492 # v2
+      uses: actions/setup-go@6edd4406fa81c3da01a34fa6f6343087c207a568 # v2
       with:
         go-version: ${{ matrix.go-version }}
 
@@ -131,7 +131,7 @@ jobs:
     steps:
 
     - name: Install Go
-      uses: actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492 # v2
+      uses: actions/setup-go@6edd4406fa81c3da01a34fa6f6343087c207a568 # v2
       with:
         go-version: ${{ matrix.go-version }}
 
@@ -169,7 +169,7 @@ jobs:
     steps:
 
     - name: Install Go
-      uses: actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492 # v2
+      uses: actions/setup-go@6edd4406fa81c3da01a34fa6f6343087c207a568 # v2
       with:
         go-version: ${{ matrix.go-version }}
 
@@ -221,7 +221,7 @@ jobs:
     steps:
     
     - name: Install Go
-      uses: actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492 # v2
+      uses: actions/setup-go@6edd4406fa81c3da01a34fa6f6343087c207a568 # v2
       with:
         go-version: ${{ matrix.go-version }}
 
